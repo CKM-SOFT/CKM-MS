@@ -2,7 +2,7 @@
 import { GoogleGenAI } from "@google/genai";
 
 export const askGemini = async (prompt: string, history: { role: 'user' | 'model', parts: { text: string }[] }[] = []) => {
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  const ai = new GoogleGenAI({ apiKey: AIzaSyB0hy6wRPXDF2eaSmaYYQIdvQemfW2mWHA });
   
   try {
     const response = await ai.models.generateContent({
