@@ -1,0 +1,8 @@
+{
+  "name": "Copy of CKM MS - Telegram Clone",
+  "description": "A high-fidelity Telegram Web (K-Version) clone with P2P messaging via PeerJS and AI integration via Google Gemini.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
